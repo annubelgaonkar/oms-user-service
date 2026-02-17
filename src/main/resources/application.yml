@@ -19,3 +19,6 @@ spring:
     properties:
       hibernate:
         format_sql: true
+jwt:
+  secret: my-super-secret-key-oms-project-2026
+  expiration: 86400000
